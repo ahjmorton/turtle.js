@@ -1,9 +1,9 @@
 {
-  "name": "turtle.js",
+  "name": "turtle",
   "version": "0.0.0",
-  "homepage" : "http://www.youtube.com/watch?v=cDuG95DXbw8",
+  "homepage" : "http://github.com/ahjmorton/turtle.js",
   "author" : {
-    "name" : "Obi-Wan Kenobi"
+    "name" : "Andrew Morton"
   },
   "dependencies": {},
   "devDependencies": {
