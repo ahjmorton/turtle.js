@@ -15,5 +15,8 @@
     "grunt-mocha-test": "~0.7.0",
     "matchdep": "~0.1.2",
     "sinon": "^1.15.4"
+  },
+  "scripts": {
+    "test": "grunt mochaTest"
   }
 }
