@@ -31,6 +31,8 @@ describe('turtle.js', function() {
        function() { subject.right(100); },
        function() { subject.up(100); },
        function() { subject.down(100); },
+       function() { subject.forward(50); },
+       function() { subject.backward(50); },
        function() { subject.moveTo(10, 10);}
      ];
      movements.forEach(function(movementFunction) {
@@ -49,6 +51,8 @@ describe('turtle.js', function() {
        function() { subject.right(100); },
        function() { subject.up(100); },
        function() { subject.down(100); },
+       function() { subject.forward(50); },
+       function() { subject.backward(50); },
        function() { subject.moveTo(10, 10);}
      ];
 
