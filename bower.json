@@ -1,9 +1,8 @@
 {
   "name": "turtle.js",
-  "version": "0.0.0",
-  "main" : [
-    "lib/turtle.js"
-  ],
+  "version": "0.0.1",
+  "description": "A zero dependency Turtle graphics implementation for HTML5 canvases",
+  "main" : "dist/turtle.v0.0.1.js",
   "ignore" : [
     "**/.*",
     "test",
