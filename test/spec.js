@@ -41,6 +41,8 @@ describe('turtle.js', function() {
        assert(!context.moveTo.called);
        assert(!context.lineTo.called);
        assert(!context.stroke.called);
+       assert(!context.lineWidth);
+       assert(!context.strokeStyle);
      });
   });
 
@@ -69,7 +71,22 @@ describe('turtle.js', function() {
          assert(toCall.called);
          toCall.reset();
        });
+
+       assert(context.lineWidth);
+       delete context.lineWidth;
+
+       assert(context.strokeStyle);
+       delete context.strokeStyle;
      });
   });
- 
+  it('should apply color and width to draw', function() {
+    var width = 5;
+    var color = 'red';
+
+    subject.moveTo(100, 100).penDown().color(color).width(width).forward(5);
+
+    assert(context.stroke.called);
+    assert.equal(context.lineWidth, width);
+    assert.equal(context.strokeStyle, color);
+  });
 });
