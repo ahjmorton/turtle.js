@@ -55,6 +55,9 @@ module.exports = function(grunt) {
         files: '<%= jshint.lib_test.src %>',
         tasks: ['jshint:lib_test', 'qunit']
       }
+    },
+    jsbeautifier : {
+      files : ['lib/*.js', 'test/*.js'] 
     }
   });
 
@@ -66,5 +69,5 @@ module.exports = function(grunt) {
   // Specific tasks
   grunt.registerTask('test', ['mochaTest']);
   grunt.registerTask('hint', ['jshint']);
-
+  grunt.registerTask('format', ['jsbeautifier']);
 };
