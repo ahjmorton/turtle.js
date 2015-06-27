@@ -18,6 +18,6 @@
     "sinon": "^1.15.4"
   },
   "scripts": {
-    "test": "grunt mochaTest"
+    "test": "grunt test"
   }
 }
