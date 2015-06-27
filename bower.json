@@ -4,6 +4,14 @@
   "dependencies": {},
   "devDependencies": {
    
-  }
+  },
+  "moduleType": [
+    "amd",
+    "globals"
+  ],
+  "authors": [ 
+    "Andrew Morton <ahjmorton@gmail.com>"
+  ],
+  "license" : "https://spdx.org/licenses/Unlicense.html"
 }
 
