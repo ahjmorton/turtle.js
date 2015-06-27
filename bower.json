@@ -6,6 +6,10 @@
   ],
   "ignore" : [
     "**/.*",
+    "test",
+    "package.json",
+    "*.md",
+    "Gruntfile.js",
     "node_modules",
     "bower_components"
   ],
