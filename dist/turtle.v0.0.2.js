@@ -1,4 +1,4 @@
-/*! turtle - v0.0.1 - 2015-06-28
+/*! turtle.js - v0.0.2 - 2015-06-28
 * http://github.com/ahjmorton/turtle.js
 * Copyright (c) 2015 ; Licensed Unlicense */
 // Uses AMD or browser globals to create a module.
@@ -59,7 +59,10 @@
         this.angle = function() {
             return angle;
         };
-
+        this.setAngle = function(newAngle) {
+            angle = newAngle;
+            return this;
+        };
         this.turn = function(amount) {
             angle = (((angle + amount) % 360) + 360) % 360;
             return this;

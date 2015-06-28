@@ -1,6 +1,6 @@
 {
-  "name": "turtle",
-  "version": "0.0.1",
+  "name": "turtle.js",
+  "version": "0.0.2",
   "description": "A zero dependency Turtle graphics implementation for HTML5 canvases",
   "homepage": "http://github.com/ahjmorton/turtle.js",
   "author": "Andrew Morton <ahjmorton@gmail.com>",
