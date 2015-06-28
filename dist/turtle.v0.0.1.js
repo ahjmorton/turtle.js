@@ -1,6 +1,6 @@
-/*! turtle - v0.0.1 - 2015-06-27
+/*! turtle - v0.0.1 - 2015-06-28
 * http://github.com/ahjmorton/turtle.js
-* Copyright (c) 2015 Andrew Morton; Licensed  */
+* Copyright (c) 2015 ; Licensed Unlicense */
 // Uses AMD or browser globals to create a module.
 
 // Grabbed from https://github.com/umdjs/umd/blob/master/amdWeb.js.

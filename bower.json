@@ -22,7 +22,7 @@
   "authors": [ 
     "Andrew Morton <ahjmorton@gmail.com>"
   ],
-  "license" : "https://spdx.org/licenses/Unlicense.html",
+  "license" : "Unlicense",
   "repository": {
     "type": "git",
     "url": "https://github.com/ahjmorton/turtle.js"
