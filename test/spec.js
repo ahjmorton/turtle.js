@@ -117,4 +117,23 @@ describe('turtle.js', function() {
         assert.equal(context.lineWidth, width);
         assert.equal(context.strokeStyle, color);
     });
+    it('should allow turning of the pen', function() {
+        var startingAngle = subject.angle();
+        var amount = 10
+
+        subject.turnRight(amount);
+
+        var newAngle = subject.angle();
+        assert.equal(startingAngle + amount, newAngle);
+
+        subject.setAngle(startingAngle)
+
+        newAngle = subject.angle();
+        assert.equal(startingAngle, newAngle);
+
+        subject.turnLeft(amount);
+
+        newAngle = subject.angle();
+        assert.equal(startingAngle - amount, newAngle);
+    });
 });
